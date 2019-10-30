@@ -12,9 +12,9 @@ var surveyAr = require('./routes/surveyAr');
 var applyFormEn = require('./routes/applyFormEn');
 var applyFormAr = require('./routes/applyFormAr');
 /*var disclaimerEn = require('./routes/disclaimerEn');
-var disclaimerAr = require('./routes/disclaimerAr');
+var disclaimerAr = require('./routes/disclaimerAr');*/
 var finalMessageEn = require('./routes/finalMessageEn');
-var finalMessageAr = require('./routes/finalMessageAr');*/
+var finalMessageAr = require('./routes/finalMessageAr');
 
 let samplesAdminUser = process.env.BOTS_SAMPLES_USER || 'windis';
 let samplesAdminPwd = process.env.BOTS_SAMPLES_PASSWORD || 'windis';
@@ -44,9 +44,9 @@ app.use('/surveyAr', surveyAr);
 app.use('/applyFormEn', applyFormEn);
 app.use('/applyFormAr', applyFormAr);
 /*app.use('/disclaimerEn', disclaimerEn);
-app.use('/disclaimerAr', disclaimerAr);
+app.use('/disclaimerAr', disclaimerAr);*/
 app.use('/finalMessageEn', finalMessageEn);
-app.use('/finalMessageAr', finalMessageAr);*/
+app.use('/finalMessageAr', finalMessageAr);
 
 //app.use(auth.connect(basic));
 //app.use('/', index);
